@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php 
-    $num = $_POST["n"];
+    $num = $_POST["n"] ?? 1;
     ?>
     <main>
         <h1>Informe Um Número</h1>
