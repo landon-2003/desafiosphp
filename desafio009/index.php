@@ -34,7 +34,7 @@
         $mediapon = (($v1 * $p1)+($v2 * $p2))/($p1 + $p2);
         echo "Analisando os valores $v1 e $v2:";
         echo "<ul><li>A <strong>Média Aritmética Simples</strong> entre os valores é igual a ".number_format($mediasim, 3, "," , ".").".</li></ul>";
-        echo "<ul><li>A <strong>Média Aritmética Ponderada</strong> entre os valores é igual a ".number_format($mediapon, 3, "," , ".").".</li></ul>"
+        echo "<ul><li>A <strong>Média Aritmética Ponderada</strong> entre os valores é igual a ".number_format($mediapon, 3, "," , ".").".</li></ul>";
         ?>
     </section>
 </body>
